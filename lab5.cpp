@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void removeDupWord(string str)
+void removeDubWord(string str)
 {
     istringstream ist(str);
     unordered_set<string> hsh;
@@ -23,7 +23,7 @@ int main()
     string str = " ";
     while ( cout << "String:" && getline(cin, str) && ! str.empty() ) {
         cout << "Result: ";
-        removeDupWord(str);
+        removeDubWord(str);
         cout << endl;
     }
     return 0;
